@@ -6,6 +6,12 @@ package com.zipcodewilmington.person;
 public class Person {
     private String name;
     private int age;
+    private int weight;
+    private int height;
+    private String job;
+    private int id;
+    private String shirtColor;
+
 
     public Person() { //match the test cases
         name = "";
@@ -40,4 +46,39 @@ public class Person {
     public Integer getAge() {
         return this.age;
     }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return this.weight;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getHeight() {
+        return this.height;
+    }
+    public void setJob(String job){
+        this.job = job;
+    }
+    public String getJob(){
+        return this.job;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+    public int getId(){
+        return this.id;
+    }
+    public void setShirtColor(String shirtColor){
+        this.shirtColor = shirtColor;
+    }
+    public String getShirtColor(){
+        return this.shirtColor;
+    }
+
 }
